@@ -1,0 +1,66 @@
+/* Container for the payment form */
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading style */
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+/* Paragraph text */
+
+p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+/* Stripe card element style */
+
+.StripeElement {
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+
+/* Submit button */
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+/* Disabled button state */
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}

@@ -1,0 +1,93 @@
+/* src/components/Login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-input {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-button {
+    padding: 15px;
+    background-color: #52e73f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 34px;
+}
+
+.login-button:hover {
+    background-color: #00cc66;
+}
+
+
+/* Responsive Design - Adjust for smaller devices */
+
+@media (max-width: 768px) {
+    .login-title {
+        font-size: 28px;
+    }
+    .login-input {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .login-button {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+
+/* Further adjustments for very small screens, like mobile devices */
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 10px;
+    }
+    .login-title {
+        font-size: 24px;
+    }
+    .login-input {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .login-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

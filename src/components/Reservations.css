@@ -1,0 +1,85 @@
+/* Reservations.css */
+
+.reservations-container {
+    padding: 20px;
+}
+
+.reservation-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.reservation-item h3 {
+    margin-top: 0;
+}
+
+.reservation-item button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.reservation-item button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+
+/* Reservations.css */
+
+.reservations-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.admin-navbar {
+    width: 100%;
+    background-color: #1a7217;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.admin-navbar h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar-links a,
+.logout-button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.navbar-links a:hover,
+.logout-button:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.logout-button {
+    border: 1px solid white;
+    border-radius: 4px;
+}

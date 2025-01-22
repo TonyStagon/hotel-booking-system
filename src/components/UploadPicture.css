@@ -1,0 +1,25 @@
+/* src/components/UploadPicture.css */
+
+.upload-picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.upload-picture-container input {
+    margin: 15px 0;
+}
+
+.upload-picture-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-picture-container progress {
+    width: 100%;
+    margin-top: 10px;
+}

@@ -1,0 +1,156 @@
+/* Container */
+
+.hotel-details-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Header */
+
+.hotel-header {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Layout: Two columns */
+
+.hotel-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* Main info: left side */
+
+.hotel-main-info {
+    flex: 3;
+}
+
+
+/* Main image */
+
+.hotel-main-image {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+/* Booking section */
+
+.hotel-booking {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.hotel-booking h2 {
+    margin-top: 0;
+}
+
+.hotel-price {
+    font-size: 24px;
+    color: #333;
+}
+
+.reserve-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reserve-btn:hover {
+    background-color: #e74c3c;
+}
+
+
+/* Description */
+
+.hotel-description {
+    margin-bottom: 20px;
+}
+
+
+/* Facilities */
+
+.hotel-facilities {
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.hotel-facilities ul {
+    padding-left: 20px;
+}
+
+.hotel-facilities li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+
+/* Right-side: reviews */
+
+.hotel-aside {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+/* Reviews */
+
+.hotel-reviews {
+    margin-top: 10px;
+}
+
+.hotel-review {
+    font-style: italic;
+    margin-bottom: 15px;
+    border-left: 3px solid #ddd;
+    padding-left: 10px;
+}
+
+.reserve-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.reserve-button {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reserve-button:hover {
+    background-color: #45a049;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .hotel-content {
+        flex-direction: column;
+    }
+}

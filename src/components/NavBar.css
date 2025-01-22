@@ -1,0 +1,118 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #325c21;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    flex-wrap: wrap;
+    /* Allows wrapping for smaller screens */
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    color: #68e792;
+    /* Slight hover effect */
+}
+
+.navbar .innovation-hub {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .book-now-btn {
+    background-color: #ffffff;
+    color: #52e73f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #52e73f;
+    cursor: pointer;
+}
+
+.navbar .book-now-btn:hover {
+    background-color: #00cc66;
+    color: white;
+    border: 2px solid #00cc66;
+}
+
+
+/* Responsive Design for Mobile Devices */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: flex-start;
+        /* Align items on the left */
+    }
+    .navbar ul {
+        flex-direction: column;
+        /* Stack menu items vertically */
+        width: 100%;
+    }
+    .navbar li {
+        margin: 10px 0;
+    }
+    .navbar .innovation-hub {
+        font-size: 20px;
+        /* Reduce font size on mobile */
+    }
+    .navbar .book-now-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .innovation-hub {
+        font-size: 18px;
+    }
+    .navbar li a {
+        font-size: 16px;
+    }
+    .navbar .book-now-btn {
+        font-size: 14px;
+    }
+}

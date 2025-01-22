@@ -1,0 +1,123 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dashboard-container h1 {
+    margin-bottom: 20px;
+}
+
+.dashboard-container p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.dashboard-container button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-container button:hover {
+    background-color: #c82333;
+}
+
+
+/* LoginPage.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+
+/* src/components/Home.css */
+
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #325c21;
+    /* Primary color */
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+    /* Space between links */
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #c82333;
+    /* Darker shade for hover */
+}
+
+.user-initial {
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+}

@@ -1,0 +1,32 @@
+.account-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.grid-item:hover {
+    background-color: #e9ecef;
+}
+
+.grid-item h3 {
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    margin: 0;
+}

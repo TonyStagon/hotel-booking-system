@@ -1,0 +1,20 @@
+/* src/components/Footer.css */
+
+.footer {
+    width: 100%;
+    background-color: #254718;
+    /* Updated background color */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
